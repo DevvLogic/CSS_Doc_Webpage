@@ -1,0 +1,105 @@
+
+<DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="CSS Documentation Page"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>CSS Documentation Page</title>
+ </head>   
+ <body>
+
+
+<nav id="navbar">
+    <h1>CSS Documentation</h1>
+    <ul>
+        <li><a href="#Introduction">Introduction</a></li>
+        <li><a href="#CSS_Syntax">CSS Syntax</a></li>
+        <li><a href="#Selectors">Selectors</a></li>
+        <li><a href="#Class_Selector">.class Selector</a></li>
+        <li><a href="#Hover_PseudoClass">a:hover</a></li>
+        <li><a href="#Typography">Typography</a></li>
+    </ul>
+</nav>
+
+
+<main id="main-doc">
+
+<section id="Introduction" class="main-section">
+    <h2>Introduction</h2>
+    <p>
+        CSS (Cascading Style Sheets) is used to style and layout web pages.
+        It controls colors, spacing, fonts, positioning, and responsive design.
+    </p>
+</section>
+
+<section id="CSS_Syntax" class="main-section">
+    <h2>CSS Syntax</h2>
+    <p>A CSS rule consists of a selector and a declaration block.</p>
+    <pre><code>
+selector {
+    property: value;
+}
+</code></pre>
+    <p>Example:</p>
+    <pre><code>
+p {
+    color: blue;
+    font-size: 18px;
+}
+</code></pre>
+</section>
+
+<section id="Selectors" class="main-section">
+    <h2>Selectors</h2>
+    <p>Selectors target HTML elements you want to style.</p>
+    <ul>
+        <li><code>element</code> – Targets all elements of that type</li>
+        <li><code>.class</code> – Targets elements with a class</li>
+        <li><code>#id</code> – Targets a specific element by ID</li>
+    </ul>
+</section>
+
+<section id="Class_Selector" class="main-section">
+    <h2>.class Selector</h2>
+    <p>
+        The <code>.class</code> selector targets elements with a specific class attribute.
+        Classes can be reused on multiple elements.
+    </p>
+    <pre><code>
+.highlight {
+    color: yellow;
+    font-weight: bold;
+}
+</code></pre>
+    <p>This text is highlighted.</p>
+</section>
+
+<section id="Hover_PseudoClass" class="main-section">
+    <h2>a:hover Pseudo-Class</h2>
+    <p>The <code>:hover</code> pseudo-class applies styles when a user moves the mouse over an element.</p>
+    <pre><code>
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+</code></pre>
+</section>
+
+<section id="Typography" class="main-section">
+    <h2>Typography & Line-Height</h2>
+    <p>The <code>line-height</code> property controls vertical spacing between lines of text.</p>
+    <pre><code>
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+</code></pre>
+</section>
+
+
+</main>
+
+</body>
+</html>
